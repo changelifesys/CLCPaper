@@ -1,0 +1,46 @@
+<div style="text-align: center; margin: 5px;">
+        <h1>生命建造程序 C1課程報名</h1>
+    </div>
+    <div style="text-align:left;width:100%;">
+        <div style="width:800px;margin:0 auto;">
+            本表個人資料將作建檔處理，並於日後會務活動運作之目的內，由教會及同工作為聯絡通訊、關懷及相關合理運用。我們會盡善良管理人責任，妥善保管資料，避免外洩或不當用途之使用。
+            <br />
+            ● 報名條件：2016年12月~2017年2月來的新朋友，或是還沒上過的會友。<br />
+            ● 上課日期：2/12(日)、 2/19(日)下午14:30~17:30<br />
+            ● 地點：江子翠行道會主會堂<br />
+            ● 報名日期：即日起~2/9(四)截止報名，之後請現場報名。<br />
+            <br />
+        </div>
+    </div>
+    <div style="text-align:left;width:100%;">
+        <div style="width:800px;margin:0 auto;">
+            *組別&nbsp;<select id="Select1">
+                <option>社青</option>
+            </select>
+            <br />
+            *小組&nbsp;<select id="Select1">
+                <option>CA202.信豪牧區-彥伯小組</option>
+            </select>
+            <br />
+            *姓名&nbsp;<input id="Text1" type="text" value="流大丹" /><br />
+            *手機&nbsp;<input id="Text1" type="text" value="0919123456" /><br />
+            <a href="http://www.google.com"><input id="Button1" type="button" value="報名" /></a>
+            <input id="Button1" type="button" value="重置" />
+        </div>
+    </div> 
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <hr />
+    <div style="text-align: center; margin: 5px;">
+        <h1>開發說明</h1>
+    </div>
+    <div style="text-align:left;width:100%;">
+        <div style="width:800px;margin:0 auto;">
+            . 呼叫 Api\GetGroupItem.aspx 取得組別、小組的下拉選項。<br />
+            . 標註「*」的部分為必填欄位。<br />
+            . 按下報名後，呼叫 Api\AddSubSign.aspx 新增報名的資料。<br />
+        </div>
+    </div>

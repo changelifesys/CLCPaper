@@ -1,0 +1,7 @@
+C:\Users\Dennis_liu\Desktop\★程式範例參考文獻\Web NET\0.程式專案\CLC系統\系統文件\CLCPaper\CLCPaper\bin\CLCPaper.dll.config
+C:\Users\Dennis_liu\Desktop\★程式範例參考文獻\Web NET\0.程式專案\CLC系統\系統文件\CLCPaper\CLCPaper\bin\CLCPaper.dll
+C:\Users\Dennis_liu\Desktop\★程式範例參考文獻\Web NET\0.程式專案\CLC系統\系統文件\CLCPaper\CLCPaper\bin\CLCPaper.pdb
+C:\Users\Dennis_liu\Desktop\★程式範例參考文獻\Web NET\0.程式專案\CLC系統\系統文件\CLCPaper\CLCPaper\obj\Debug\CLCPaper.csprojResolveAssemblyReference.cache
+C:\Users\Dennis_liu\Desktop\★程式範例參考文獻\Web NET\0.程式專案\CLC系統\系統文件\CLCPaper\CLCPaper\obj\Debug\CLCPaper.csproj.CoreCompileInputs.cache
+C:\Users\Dennis_liu\Desktop\★程式範例參考文獻\Web NET\0.程式專案\CLC系統\系統文件\CLCPaper\CLCPaper\obj\Debug\CLCPaper.dll
+C:\Users\Dennis_liu\Desktop\★程式範例參考文獻\Web NET\0.程式專案\CLC系統\系統文件\CLCPaper\CLCPaper\obj\Debug\CLCPaper.pdb
