@@ -6,18 +6,21 @@
 </head>
 <body>
     <div style="text-align: center; margin: 5px;">
-        <h1>生命建造程序 C1課程報名</h1>
+        <h1><font style="color: red">生命建造程序 C1課程報名</font></h1>
     </div>
     <div style="text-align:left;width:100%;">
         <div style="width:800px;margin:0 auto;">
             本表個人資料將作建檔處理，並於日後會務活動運作之目的內，由教會及同工作為聯絡通訊、關懷及相關合理運用。我們會盡善良管理人責任，妥善保管資料，避免外洩或不當用途之使用。
             <br />
-            ● 報名條件：2016年12月~2017年2月來的新朋友，或是還沒上過的會友。<br />
-            ● 上課日期：2/12(日)、 2/19(日)下午14:30~17:30<br />
-            ● 地點：江子翠行道會主會堂<br />
-            ● 報名日期：即日起~2/9(四)截止報名，之後請現場報名。<br />
-            <br />
-        </div>
+            ● 報名條件：<font style="color: red">2016年12月~2017年2月來的新朋友，或是還沒上過的會友。</font><br />
+            ● 上課日期：<font style="color: red">
+    2/12(日)、 2/19(日)下午14:30~17:30</font><br />
+    ● 地點：<font style="color: red">
+    江子翠行道會主會堂(SubLocation)</font><br />
+    ● 報名日期：<font style="color: red">
+    即日起~2/9(四)截止報名，之後請現場報名。</font><br />
+    <br />
+</div>
     </div>
     <div style="text-align:left;width:100%;">
         <div style="width:800px;margin:0 auto;">
@@ -50,9 +53,11 @@
 
     <div style="text-align:left;width:100%;">
         <div style="width:800px;margin:0 auto;">
-            . 呼叫 Api\GetGroupItem.aspx 取得組別、小組的下拉選項。<br />
+
+            . 傳入呼叫 Api\GetSUBInfo.aspx 取得課程資訊, 標紅字的部份。(<a>查看 API GetSUBInfo JSON 文件</a>)<br/>
+            . 呼叫 Api\GetGroupItem.aspx 取得組別、小組的下拉選項。(<a>查看 API GetGroupItem JSON 文件)</a><br />
             . 標註「*」的部分為必填欄位。<br />
-            . 按下報名後，呼叫 Api\AddSubSign.aspx 新增報名的資料。<br />
+            . 按下報名後，呼叫 Api\AddSubSign.aspx 新增報名的資料。(查看 API AddSubSign JSON 文件)<br />
 
         </div>
     </div>
