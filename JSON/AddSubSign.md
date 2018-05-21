@@ -13,10 +13,10 @@
 
 欄位名 | 描述 
 ---------|----------
-SID | 回傳的課程id編號
-CategoryID | 傳入網旨的id參數(http://changelifesys.org/SubjectSignUp.aspx?id=c1)
-gcroup | 下拉選單的「組別」
-group | 下拉選單的「小組」
+SID | API\GetSUBInfo.aspx 回傳的課程id編號
+CategoryID | 網旨的id參數  http://changelifesys.org/SubjectSignUp.aspx?id=c1
+gcroup | 組別
+group | 小組
 Ename | 姓名
 Phone | 手機
 
