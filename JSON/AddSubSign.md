@@ -2,6 +2,11 @@
 
 ```json
 {
+  "DataChangeMsg": [
+    "原手機號碼 0919963322 是否變更為 「0919963327」",
+    "原彥伯小組是否變更為「漢威小組」"
+  ],
+  "MID": "758",
   "SID": 1,
   "CategoryID": "C1",
   "gcroup": "社青",
@@ -15,6 +20,8 @@
 
 欄位名 | 描述 
 ---------|----------
+DataChangeMsg | 資料變更訊息提醒(可以有多條訊息)
+MID | 會友流水編號
 SID | API\GetSUBInfo.aspx 回傳的課程id編號
 CategoryID | 網旨的id參數  http://changelifesys.org/SubjectSignUp.aspx?id=c1
 gcroup | 組別
@@ -29,6 +36,11 @@ Church | 保留欄位, 固定傳入空值
 
 ```json
 {
+  "DataChangeMsg": [
+    "原手機號碼 0919963322 是否變更為 「0919963327」",
+    "原彥伯小組是否變更為「漢威小組」"
+  ],
+  "MID": "758",
   "CategoryID": "C1",
   "SID": 1,
   "gcroup": "社青",
@@ -49,6 +61,8 @@ Church | 保留欄位, 固定傳入空值
 
 欄位名 | 描述 
 ---------|----------
+DataChangeMsg | 資料變更訊息提醒(可以有多條訊息)
+MID | 會友流水編號
 CategoryID | 傳入網旨的id參數(http://changelifesys.org/SubjectSignUp.aspx?id=c1)
 SID | 回傳課程id編號
 gcroup | 組別

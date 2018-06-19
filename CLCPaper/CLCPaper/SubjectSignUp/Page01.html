@@ -13,15 +13,12 @@
         <div style="width:800px;margin:0 auto;">
             本表個人資料將作建檔處理，並於日後會務活動運作之目的內，由教會及同工作為聯絡通訊、關懷及相關合理運用。我們會盡善良管理人責任，妥善保管資料，避免外洩或不當用途之使用。
             <br />
-            ● 報名條件：<font style="color: red">2016年12月~2017年2月來的新朋友，或是還沒上過的會友。</font><br />
-            ● 上課日期：<font style="color: red">
-    2/12(日)、 2/19(日)下午14:30~17:30</font><br />
-    ● 地點：<font style="color: red">
-    江子翠行道會主會堂(SubLocation)</font><br />
-    ● 報名日期：<font style="color: red">
-    即日起~2/9(四)截止報名，之後請現場報名。</font><br />
-    <br />
-</div>
+            ● 報名條件：2016年12月~2017年2月來的新朋友，或是還沒上過的會友。<br />
+            ● 上課日期：2/12(日)、 2/19(日)下午14:30~17:30<br />
+            ● 地點：江子翠行道會主會堂(SubLocation)<br />
+            ● 報名日期：即日起~2/9(四)截止報名，之後請現場報名。<br />
+            <br />
+        </div>
     </div>
     <div style="text-align:left;width:100%;">
         <div style="width:800px;margin:0 auto;">
@@ -35,13 +32,15 @@
             <br />
             *姓名&nbsp;<input id="Text1" type="text" value="流大丹" /><br />
             *手機&nbsp;<input id="Text1" type="text" value="0919123456" /><br />
+            <input id="Checkbox1" type="checkbox" />記住(方便下次不用重填資訊)
+            <p/>
             <input id="Button1" type="button" onclick="window.location='https://htmlpreview.github.io/?https://github.com/changelifesys/CLCPaper/blob/master/CLCPaper/CLCPaper/SubjectSignUp/Page02.html'" value="報名" />
             <input id="Button1" type="button" value="重置" />
 
         </div>
     </div>
 
-    
+
     <br />
     <br />
     <br />
@@ -54,11 +53,11 @@
 
     <div style="text-align:left;width:100%;">
         <div style="width:800px;margin:0 auto;">
-
-            . 呼叫 Api\GetSUBInfo.aspx 取得課程資訊, 標紅字的部份。(<a target="_blank" href="https://github.com/changelifesys/CLCPaper/blob/master/JSON/GetSUBInfo.md">查看 API GetSUBInfo JSON 文件</a>)<br/>
+            . 呼叫 Api\GetSUBInfo.aspx 取得課程資訊, 內容請讀取 HtmlSubDesc 欄位, 標題請讀取 SubName 欄位。(<a target="_blank" href="https://github.com/changelifesys/CLCPaper/blob/master/JSON/GetSUBInfo.md">查看 API GetSUBInfo JSON 文件</a>)<br />
             . 呼叫 Api\GetGroupItem.aspx 取得組別、小組的下拉選項。(<a target="_blank" href="https://github.com/changelifesys/CLCPaper/blob/master/JSON/GetGroupItem.md">查看 API GetGroupItem JSON 文件)</a><br />
             . 標註「*」的部分為必填欄位。<br />
-            . 按下報名後，呼叫 Api\AddSubSign.aspx 新增報名的資料。(<a target="_blank" href="https://github.com/changelifesys/CLCPaper/blob/master/JSON/AddSubSign.md">查看 API AddSubSign JSON 文件</a>)<br />
+            . 若勾選記住, 則使用者就不用再重填重覆欄位的資料<br />
+            . 按下報名後，呼叫 Api\ChkMember.aspx 判斷是否有更改資料。(<a target="_blank" href="https://github.com/changelifesys/CLCPaper/blob/master/JSON/ChkMember.md">查看 API ChkMember JSON 文件</a>)<br />
 
         </div>
     </div>

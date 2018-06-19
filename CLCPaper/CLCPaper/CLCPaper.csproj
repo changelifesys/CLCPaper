@@ -52,6 +52,7 @@
   <ItemGroup>
     <Content Include="SubjectSignUp\Page01.html" />
     <Content Include="SubjectSignUp\Page02.html" />
+    <Content Include="SubjectSignUp\Page03.html" />
     <Content Include="SubjectSignUp\title.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
