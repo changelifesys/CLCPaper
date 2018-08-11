@@ -1,7 +1,9 @@
-API | 說明 
+<div><h1>API GetSUBInfo</h1></div>
+
+API | 描述 
 ---------|----------
-API用途 | 取得課程資訊
-API使用的頁面 | SubjectCheck.aspx 課程簽到, SubjectSignUp.aspx 課程報名
+用途說明 | 取得課程資訊
+使用位置 | SubjectCheck.aspx 課程簽到, SubjectSignUp.aspx 課程報名
 
 
 <div><h1>傳入 JSON</h1></div>
