@@ -1,3 +1,10 @@
+<div><h1>API ChkMember</h1></div>
+
+API | 描述 
+---------|----------
+用途說明 | 驗證會友填入的資料
+使用位置 | SubjectCheck.aspx 課程簽到, SubjectSignUp.aspx 課程報名
+
 <div><h1>傳入 JSON</h1></div>
 
 ```json
