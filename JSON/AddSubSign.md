@@ -55,7 +55,8 @@ Church | 保留欄位, 固定傳入空值
   "Church": "",
   "ApiMsg": "C1 課程報名成功！",
   "IsApiError": false,
-  "SubDate": "05/26,05/27"
+  "SubDate": "05/26,05/27",
+  "GoLink": "http://changelifesys.org/MemSubQuery.aspx"
 }
 ```
 
@@ -78,3 +79,4 @@ Church | 保留欄位, 固定回傳空值
 ApiMsg | API的訊息, 若IsApiError=true則顯示該訊息, 資料正常就顯示為「C1 課程報名成功！」。
 IsApiError | IsApiError=true 表示API有錯誤; IsApiError=false 表示API無誤。
 SubDate | 上課的日期
+GoLink | 導向的連結
